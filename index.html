@@ -2,75 +2,124 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>LITTLE LEMON</title>
-    <meta name="description" content="Little Lemon is a restaurant that serves the best lemonade in town.">
-    <meta name="author" content="Little Lemon">
-    
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="apple-touch-icon" href="favicon.png">
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hind+Siliguri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Lucky Shrub</title>
 </head>
 
 <body>
-    <header>
-        <img src="assets/img/logo.png" alt="logo">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="book.html">Book</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
-    <main>
-        <div class="promote-row">
-            <article>
-                <h2>30% Off This Weekend</h2>
-                <p>Little Lemon is a restaurant that serves the best lemonade in town. We have a variety of lemonades that you can choose from. We also have a variety of food that you can enjoy with your lemonade. We are open from 10am to 10pm every day. Come and visit us today!</p>
-            </article>
+  <header id="top">
+    <img src="https://scontent.fmaa12-3.fna.fbcdn.net/v/t1.6435-9/96809848_110401464007190_5941542488954109952_n.png?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=GYPHAvXYPmMQ7kNvgGflRQw&_nc_zt=23&_nc_ht=scontent.fmaa12-3.fna&_nc_gid=AMXfK5_Aaa1dMuFsfBPS8Mg&oh=00_AYB94fsLb2yJIM7ceHk4DWEVMk-SzrlEJcLCpYH6Vwugjg&oe=679E33F3" alt="" style="border-radius: 25px;">
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a href="/index.html">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#services">Services</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1 class="hero-title">Oasis, where you want</h1>
+        <p>We can turn your home into a <span>green</span> paradise</p>
+        <button>call us now</button>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="title">
+        <h2>Who we are</h2>
+        <div class="divider"></div>
+        <p>Lucky Shrub was started by a husband and wife team, Jason and Maria, who share a long-time love for plants.</p>
+      </div>
+      <div class="wrapper">
+        <div class="team">
+          <img src="images/team1.jpg" alt="">
+          <h4>Jason James</h4>
+          <p>Jason is the garden architect.
+            He creates and oversees all designs while managing his team of landscapers.
+          </p>
         </div>
-        <div class="row">
-            <article>
-                <h3>Our New Menu</h3>
-                <img src="assets/img/home/new_menu.jpg" alt="Our new menu">
-                <p>Little Lemon is a restaurant that serves the best lemonade in town. We have a variety of lemonades that you can choose from. We also have a variety of food that you can enjoy with your lemonade. We are open from 10am to 10pm every day. Come and visit us today!</p>
-                <a href="menu.html">See our new menu</a>
-            </article>
-            <article>
-                <h3>Book a table</h3>
-                <img src="assets/img/home/book_table.jpg" alt="Book a table">
-                <p>Little Lemon is a restaurant that serves the best lemonade in town. We have a variety of lemonades that you can choose from. We also have a variety of food that you can enjoy with your lemonade. We are open from 10am to 10pm every day. Come and visit us today!</p>
-                <a href="book.html">See our new menu</a>
-            </article>
-            <article>
-                <h3>Opening Hours</h3>
-                <img src="assets/img/home/opening_hours.jpg" alt="Opening Hours">
-                <p>Little Lemon is a restaurant that serves the best lemonade in town. We have a variety of lemonades that you can choose from.</p>
-                <ul>
-                    <li>Mon - Fri: 2pm - 10pm</li>
-                    <li>Sat: 2pm - 11pm</li>
-                    <li>Sun: 2pm - 9pm</li>
-                </ul>
-            </article>
+        <div class="team">
+          <img src="images/team2.jpg" alt="">
+          <h4>Maria James</h4>
+          <p>Maria manages all the marketing for the company and oversees the nursery.
+          </p>
         </div>
-    </main>
-    <footer>
-        <div>
-            <img src="assets/img/logo_footer.png" alt="">
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="title">
+        <h2>Our Services</h2>
+        <div class="divider big-div"></div>
+      </div>
+      <div class="wrapper">
+        <div class="service">
+          <i class="icon fa-solid fa-highlighter"></i>
+          <h4>
+            Design
+          </h4>
         </div>
-        <div>
-            <p>&copy; 2024 Little Lemon</p>
+        <div class="service">
+          <i class="icon fa-solid fa-gears"></i>
+          <h4>
+            Maintenance
+          </h4>
         </div>
-    </footer>
+        <div class="service">
+          <i class="icon fa-brands fa-pagelines"></i>
+          <h4>
+            Sell
+          </h4>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="title">
+        <h2>Contact Us</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="wrapper">
+        <div class="cta">
+          <h3>Don't waste time. <br> Subsribe to get all new updates and offers!</h3><br>
+          <form>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="basic-input" required>
+            <button class="cta-btn" type="submit">Subscribe now</button>
+          </form>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216178.87413328048!2d-111.0238913502777!3d32.15583283609622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d665410b2ced2b%3A0x73c32d384d16c715!2sTucson%2C%20AZ%2C%20USA!5e0!3m2!1sen!2seg!4v1663030948270!5m2!1sen!2seg"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="foot-logo"><img src="Lucky-Shrub-logos/Asset 3@3x.png" alt=""></div>
+    <div>Copyright 2022 Lucky Shrub. &copy; All Rights Reserved</div>
+  </footer>
+  <a class="top" href="#top"><i class="fa-solid fa-arrow-turn-up"></i></a>
 </body>
+
 </html>
