@@ -1,0 +1,399 @@
+
+/* common styles */
+html {
+    font-family: 'Hind Siliguri', sans-serif;
+    scroll-behavior: smooth;
+    max-width: 1500px;
+  }
+  
+  ::selection {
+    background-color: #fda048;
+    color: #145c56;
+  }
+  
+  body {
+    font-size: 1.5rem;
+    background-color: #000000;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  button {
+    background-color: rgb(74, 214, 167);
+    padding: 1em 1.8em;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1.4em;
+    color: #0e4641;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s;
+    border: 2px solid transparent;
+  }
+  
+  button:hover {
+    background-color: rgb(40, 234, 248);
+    color: #082213;
+    border: 2px solid rgb(212, 212, 212);
+  }
+  
+  section {
+    margin: 5% 1%;
+  }
+  
+  .title h2 {
+    font-size: 2.4rem;
+    letter-spacing: 1.4px;
+    color: #26877f;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .divider {
+    margin: -1.5rem auto 0;
+    width: 10%;
+    border-bottom: #0e4641 4px solid;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .title {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+  
+  /* to top button */
+  .top {
+    background-color: #26877f;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 11111;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0e4641;
+    font-size: 1.3rem;
+    transition: all 0.4s;
+  }
+  
+  .top:hover {
+    background-color: rgb(255, 255, 255);
+    color: #082213;
+  }
+  
+  /* header */
+  header > img {
+    display: block;
+    width: 6em;
+    margin: 10px auto 0;
+  }
+  
+  /* navigation */
+  nav {
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  
+  nav ul {
+    margin: 2em 0 1em 0;
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding: 0.67em;
+  }
+  
+  nav li a {
+    padding: 0.35em;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+    color: #ffffff;
+  }
+  
+  nav li:hover a {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  /* hero banner */
+  .hero {
+    background: linear-gradient(90deg, rgba(38, 135, 127, 0.7), rgba(59, 154, 146, 0.4)), 
+                url(https://img.freepik.com/free-photo/beautiful-green-park_1417-1444.jpg?t=st=1735838223~exp=1735841823~hmac=952c873ef0293bb8ef988c44794458a5986130c95db11f6dcc59cf02dba614a5&w=996);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 1%;
+  }
+  
+  .hero .hero-text {
+    margin-top: -8rem;
+    padding-left: 6rem;
+    color: rgb(255, 255, 255, .9);
+    font-size: 1.6rem;
+    font-weight: 900;
+  }
+  
+  .hero .hero-title {
+    font-family: 'Anton', sans-serif;
+    color: rgb(205, 205, 205);
+    letter-spacing: .3rem;
+    font-size: 4rem;
+    text-shadow: 18px -18px 20px rgba(245, 215, 110, 0.4);
+  }
+  
+  .hero p {
+    margin-top: -1em;
+  }
+  
+  /* about section */
+  .about .wrapper .team {
+    padding: 1.6em;
+    margin-top: 1.4em;
+    text-align: center;
+    flex: 0 1 30%;
+    line-height: 1.4;
+    border: #121313 2px solid;
+    border-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: 0.5s all;
+    color: #ffffff;
+  }
+  
+  .about .wrapper .team:hover {
+    border: #26877f 2px solid;
+    background: rgb(163, 255, 255);
+    color:#000000;
+  }
+  
+  .team img {
+    border-radius: 15px;
+  }
+  
+  .team h4 {
+    margin: 0.4em 0 0 0;
+    font-size: 1.8rem;
+  }
+  
+  .big-div {
+    margin-bottom: 3em;
+  }
+  
+  /* services section */
+  .wrapper .service {
+    text-align: center;
+  }
+  
+  .wrapper .service h4 {
+    font-size: 1.6rem;
+    color: #ffffff;
+  }
+  
+  
+  .icon {
+    padding: 0.5em;
+    border-radius: 0;
+    background-color: #c5faeb;
+    font-size: 5rem;
+    color: #145c56;
+    transition: all 0.7s;
+  }
+  
+  .icon:hover {
+    border-radius: 25%;
+  }
+  
+  /* contact section */
+  .wrapper .map {
+    width: 50%;
+    height: 600px;
+  }
+  .cta {
+    width: 40%;
+    align-self: center;
+    margin-right: 50px;
+    color: #ffffff;
+  }
+  
+  .cta h3 {
+    margin: 0;
+  }
+  
+  .cta-btn {
+    padding: 0.4em .8em;
+    font-size: 1.4rem;
+  }
+  
+  .basic-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .basic-input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* footer section */
+  footer {
+    font-size: 2rem;
+    height: 200px;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .foot-logo {
+    width: 30px;
+    align-self: center;
+  }
+  
+  /* Media query for different break points */
+  @media only screen and (max-width: 1000px) {
+    body {
+      font-size: 1.1rem;
+    }
+    header > img {
+      width: 4em;
+    }
+    nav ul {
+      font-size: 1.2rem;
+    }
+    .hero {
+      justify-content: center;
+    }
+    .hero .hero-title {
+      font-size: 3rem;
+    }
+    .hero .hero-text {
+      margin: 0;
+      padding: 0;
+      font-size: 1.3rem;
+    }
+    button {
+      font-size: 1rem;
+    }
+    .wrapper {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .about .wrapper .team {
+      flex: 0 1 60%;
+    }
+    .contact .wrapper .cta {
+      text-align: center;
+      margin: 0;
+      flex: 0 1 80%;
+    }
+    .contact .wrapper .map {
+      flex: 0 1 80%;
+      height: 400px;
+    }
+    .wrapper .service {
+      flex: 0 1 40%;
+    }
+    .icon {
+      font-size: 4rem;
+    }
+    .top {
+      width: 30px;
+      height: 30px;
+      font-size: 1rem;
+    }
+    .cta-btn {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    nav ul {
+      font-size: 1rem;
+    }
+    .hero .hero-title {
+      font-size: 2.5rem;
+    }
+    button {
+      font-size: 0.8rem;
+    }
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 490px) {
+    body {
+      font-size: 1rem;
+    }
+    .hero .hero-title {
+      font-size: 1.8rem;
+    }
+    .hero .hero-text {
+      font-size: 1rem;
+    }
+    nav {
+      width: 100%;
+    }
+    .title h2 {
+      font-size: 2rem;
+    }
+    .about .wrapper .team {
+      flex: 0 1 80%;
+    }
+    .wrapper .service {
+      flex: 0 1 100%;
+    }
+    .contact .wrapper .cta {
+      text-align: center;
+      margin: 0;
+      flex: 0 1 100%;
+    }
+    .cta form {
+      margin-top: 1rem;
+    }
+    .contact .wrapper .map {
+      flex: 0 1 100%;
+      height: 400px;
+    }
+    footer {
+      padding: 0 2rem;
+      gap: 70px
+    }
+  }
